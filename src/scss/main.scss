@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Vazir;
+  src: url('../../node_modules/vazir-font/dist/Vazir.eot');
+  src: url('../../node_modules/vazir-font/dist/Vazir.eot?#iefix') format('embedded-opentype'),
+  url('../../node_modules/vazir-font/dist/Vazir.woff2') format('woff2'),
+  url('../../node_modules/vazir-font/dist/Vazir.woff') format('woff'),
+  url('../../node_modules/vazir-font/dist/Vazir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../../node_modules/vazir-font/dist/Vazir-Bold.eot');
+  src: url('../../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../node_modules/vazir-font/dist/Vazir-Bold.woff2') format('woff2'),
+  url('../../node_modules/vazir-font/dist/Vazir-Bold.woff') format('woff'),
+  url('../../node_modules/vazir-font/dist/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  text-align: right;
+  font-family: Vazir;
+
+}
+
+.header {
+  height: 6.25rem;
+  padding-right: 6.5rem;
+}
+
+
+
+
+
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fefdfc;
+  padding: 2.5rem 0;
+  margin: 0 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #ffcb05;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ffcb05;
+}
+
+.nav-link-grow-up::before {
+  height: 0%;
+  width: 100%;
+  bottom: 0px;
+}
+
+.nav-link-grow-up:hover::before {
+  height: 5px;
+
+}
+
+.consult-btn{
+  background-color: #003cb6;
+  color: white;
+  margin-left: 7.5rem;
+}
+
+.first-segment {
+  padding-right: 7.5rem;
+  background-image: url("../images/1.jpg");
+  height: 50rem;
+}
+
+.description {
+  padding-top: 15rem;
+  color: white;
+  width: 29rem;
+
+> h1, h2, h3, h4, h5, h6 {
+  text-align: right;
+}
+
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.context {
+  font-size: 1rem;
+  line-height: 2.25rem;
+
+}
+.receive-btn{
+  background-color: #ffcb05;
+  color: white;
+  font-weight: bold;
+
+
+}

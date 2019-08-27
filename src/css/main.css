@@ -12,73 +12,17 @@
   font-weight: bold;
   font-style: normal; }
 
+.landing-background {
+  background-image: url("../images/1.jpg");
+  height: 56.25rem; }
+  .landing-background .navbar {
+    height: 6.25rem; }
+  .landing-background .description {
+    height: 37.5rem; }
+  .landing-background .categories {
+    height: 7.5rem;
+    margin-bottom: 5rem; }
+
 body {
   text-align: right;
-  font-family: Vazir; }
-
-.header {
-  height: 6.25rem;
-  padding-right: 6.5rem; }
-
-.nav-link {
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fefdfc;
-  padding: 2.5rem 0;
-  margin: 0 20px;
-  display: inline-block;
-  position: relative; }
-
-.nav-link:hover {
-  color: #ffcb05; }
-
-.nav-link::before {
-  transition: 300ms;
-  height: 5px;
-  content: "";
-  position: absolute;
-  background-color: #ffcb05; }
-
-.nav-link-grow-up::before {
-  height: 0%;
-  width: 100%;
-  bottom: 0px; }
-
-.nav-link-grow-up:hover::before {
-  height: 5px; }
-
-.consult-btn {
-  background-color: #003cb6;
-  color: white;
-  margin-left: 7.5rem; }
-
-.first-segment {
-  padding-right: 7.5rem;
-  background-image: url("../images/1.jpg");
-  height: 50rem; }
-
-.description {
-  padding-top: 15rem;
-  color: white;
-  width: 29rem; }
-  .description > h1, .description h2, .description h3, .description h4, .description h5, .description h6 {
-    text-align: right; }
-
-.subtitle {
-  font-size: 1.25rem;
-  margin-bottom: 0; }
-
-.title {
-  font-size: 2.5rem;
-  font-weight: bold; }
-
-.context {
-  font-size: 1rem;
-  line-height: 2.25rem; }
-
-.receive-btn {
-  background-color: #ffcb05;
-  color: white;
-  font-weight: bold; }
+  font-family: Vazir, serif; }

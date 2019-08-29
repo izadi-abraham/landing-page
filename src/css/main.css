@@ -13,15 +13,327 @@
   font-style: normal; }
 
 .landing-background {
-  background-image: url("../images/1.jpg");
+  background: url("../images/1.jpg") no-repeat left top;
   height: 56.25rem; }
-  .landing-background .navbar {
-    height: 6.25rem; }
-  .landing-background .description {
-    height: 37.5rem; }
-  .landing-background .categories {
-    height: 7.5rem;
-    margin-bottom: 5rem; }
+  .landing-background .gradient {
+    background: linear-gradient(to top left, #003cb6 0%, rgba(0, 60, 182, 0) 100%);
+    height: 56.25rem; }
+    .landing-background .gradient .navbar {
+      height: 6.25rem; }
+      .landing-background .gradient .navbar .icon-logo:before {
+        color: white; }
+    .landing-background .gradient .description {
+      height: 37.5rem; }
+    .landing-background .gradient .categories {
+      height: 7.5rem;
+      margin-bottom: 5rem; }
+      .landing-background .gradient .categories .category-item {
+        height: 8.75rem;
+        width: 11.25rem;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        border-left: solid 0.0625rem rgba(255, 255, 255, 0.1);
+        border-radius: 0.3125rem; }
+        .landing-background .gradient .categories .category-item:last-of-type {
+          border-left: none; }
+        .landing-background .gradient .categories .category-item .category-icon {
+          display: block;
+          font-size: 2.5rem;
+          margin-top: 1.6875rem;
+          margin-bottom: 1.4375rem; }
+        .landing-background .gradient .categories .category-item .category-text {
+          font-size: 1.125rem; }
+        .landing-background .gradient .categories .category-item.active {
+          background-color: rgba(255, 255, 255, 0.1); }
+        .landing-background .gradient .categories .category-item:hover {
+          background-color: rgba(255, 255, 255, 0.15); }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?2t4izx");
+  src: url("../fonts/icomoon.eot?2t4izx#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?2t4izx") format("truetype"), url("../fonts/icomoon.woff?2t4izx") format("woff"), url("../fonts/icomoon.svg?2t4izx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-download2:before {
+  content: "\e946"; }
+
+.icon-upload2:before {
+  content: "\e945"; }
+
+.icon-arrow-pointing-to-down:before {
+  content: "\e934"; }
+
+.icon-search1:before {
+  content: "\e935"; }
+
+.icon-pin:before {
+  content: "\e936"; }
+
+.icon-phone-call:before {
+  content: "\e937"; }
+
+.icon-add-user:before {
+  content: "\e938"; }
+
+.icon-briefcase:before {
+  content: "\e939"; }
+
+.icon-smartphone:before {
+  content: "\e93a"; }
+
+.icon-user:before {
+  content: "\e93b"; }
+
+.icon-suitcase:before {
+  content: "\e93c"; }
+
+.icon-fire:before {
+  content: "\e93d"; }
+
+.icon-delivery-truck:before {
+  content: "\e93e"; }
+
+.icon-businessman:before {
+  content: "\e93f"; }
+
+.icon-first-aid-kit:before {
+  content: "\e940"; }
+
+.icon-cardiology:before {
+  content: "\e941"; }
+
+.icon-shopping-cart:before {
+  content: "\e942"; }
+
+.icon-headset:before {
+  content: "\e943"; }
+
+.icon-documents:before {
+  content: "\e944"; }
+
+.icon-instagram:before {
+  content: "\e933";
+  color: #294187; }
+
+.icon-a:before {
+  content: "\e930";
+  color: #294187; }
+
+.icon-personal:before {
+  content: "\e931";
+  color: #294187; }
+
+.icon-notification:before {
+  content: "\e932";
+  color: #294187; }
+
+.icon-link:before {
+  content: "\e92d";
+  color: #294187; }
+
+.icon-email:before {
+  content: "\e92e";
+  color: #294187; }
+
+.icon-WhatsApp:before {
+  content: "\e92f";
+  color: #294187; }
+
+.icon-logo:before {
+  content: "\e92b";
+  color: #294187; }
+
+.icon-motor:before {
+  content: "\e92c";
+  color: #294187; }
+
+.icon-plus:before {
+  content: "\e906";
+  color: #294187; }
+
+.icon-download:before {
+  content: "\e90e";
+  color: #294187; }
+
+.icon-timmer:before {
+  content: "\e90f";
+  color: #294187; }
+
+.icon-menu:before {
+  content: "\e910";
+  color: #294187; }
+
+.icon-payatdelivery:before {
+  content: "\e911";
+  color: #294187; }
+
+.icon-info:before {
+  content: "\e912";
+  color: #294187; }
+
+.icon-share:before {
+  content: "\e913";
+  color: #294187; }
+
+.icon-communication:before {
+  content: "\e914";
+  color: #294187; }
+
+.icon-answering:before {
+  content: "\e915";
+  color: #294187; }
+
+.icon-questions:before {
+  content: "\e916";
+  color: #294187; }
+
+.icon-gift:before {
+  content: "\e917";
+  color: #294187; }
+
+.icon-Star:before {
+  content: "\e918";
+  color: #294187; }
+
+.icon-sound:before {
+  content: "\e919";
+  color: #294187; }
+
+.icon-sort:before {
+  content: "\e91a";
+  color: #294187; }
+
+.icon-upload:before {
+  content: "\e91b";
+  color: #294187; }
+
+.icon-show:before {
+  content: "\e91c";
+  color: #294187; }
+
+.icon-hide:before {
+  content: "\e91d";
+  color: #294187; }
+
+.icon-pending:before {
+  content: "\e91e";
+  color: #294187; }
+
+.icon-confairmed:before {
+  content: "\e91f";
+  color: #294187; }
+
+.icon-down:before {
+  content: "\e920";
+  color: #294187; }
+
+.icon-up:before {
+  content: "\e921";
+  color: #294187; }
+
+.icon-right:before {
+  content: "\e922";
+  color: #294187; }
+
+.icon-left:before {
+  content: "\e923";
+  color: #294187; }
+
+.icon-linkdin:before {
+  content: "\e924";
+  color: #294187; }
+
+.icon-facebook:before {
+  content: "\e925";
+  color: #294187; }
+
+.icon-twitter:before {
+  content: "\e926";
+  color: #294187; }
+
+.icon-calender:before {
+  content: "\e927";
+  color: #294187; }
+
+.icon-tick:before {
+  content: "\e928";
+  color: #294187; }
+
+.icon-close2:before {
+  content: "\e929";
+  color: #294187; }
+
+.icon-profile:before {
+  content: "\e92a";
+  color: #294187; }
+
+.icon-workwithus:before {
+  content: "\e900";
+  color: #294187; }
+
+.icon-blog:before {
+  content: "\e901";
+  color: #294187; }
+
+.icon-FAQ:before {
+  content: "\e902";
+  color: #294187; }
+
+.icon-insurance6:before {
+  content: "\e903";
+  color: #294187; }
+
+.icon-insurance5:before {
+  content: "\e904";
+  color: #294187; }
+
+.icon-insurance4:before {
+  content: "\e905";
+  color: #294187; }
+
+.icon-profileactive:before {
+  content: "\e907";
+  color: #294187; }
+
+.icon-insurance3:before {
+  content: "\e908";
+  color: #294187; }
+
+.icon-insurance2:before {
+  content: "\e909";
+  color: #294187; }
+
+.icon-insurance1:before {
+  content: "\e90a";
+  color: #294187; }
+
+.icon-close:before {
+  content: "\e90b";
+  color: #294187; }
+
+.icon-search:before {
+  content: "\e90c";
+  color: #294187; }
+
+.icon-phone:before {
+  content: "\e90d";
+  color: #294187; }
 
 body {
   text-align: right;

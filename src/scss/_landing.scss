@@ -1,9 +1,15 @@
+$first-segment-height: px2rem(900);
+
 .landing-background {
-  background-image: url("../images/1.jpg");
-  height: px2rem(900);
+  background: linear-gradient(to top left, #003cb6 0%, rgba(0, 60, 182, 0) 100%),
+  url("../images/1.jpg") no-repeat left top;
+  height: $first-segment-height;
+
   .navbar {
     height: px2rem(100);
-
+    .icon-logo:before {
+      color: white;
+    }
   }
 
   .description {
@@ -12,5 +18,39 @@
   .categories {
     height: px2rem(120);
     margin-bottom: px2rem(80);
+
+    .category-item {
+      height: px2rem(140);
+      width: px2rem(180);
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      border-left: solid px2rem(1) rgba(255, 255, 255, 0.1);
+      border-radius: px2rem(5);
+      &:last-of-type {
+        border-left: none;
+      }
+
+      .category-icon {
+        display: block;
+        font-size: px2rem(40);
+        margin-top: px2rem(27);
+        margin-bottom: px2rem(23);
+      }
+
+      .category-text {
+        font-size: px2rem(18);
+      }
+
+      &.active {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+      }
+
+    }
   }
+
 }

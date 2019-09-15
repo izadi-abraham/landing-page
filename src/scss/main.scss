@@ -1,7 +1,7 @@
 @import "fonts";
 @import "functions";
 @import "variables";
-@import "~bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 @import "landing";
 @import "icomoon";
 
@@ -9,6 +9,7 @@
 body {
   text-align: right;
   font-family: Vazir, serif;
+  position: relative;
 }
 
 
